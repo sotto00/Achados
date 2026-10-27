@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Álbum de Achados",
+    "slug": "album-de-achados",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Permita o acesso à câmera para fotografar seus achados."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Permita a localização para registrar onde você fez o achado."
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F5EEDC",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "splash": {
+      "backgroundColor": "#F5EEDC"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
